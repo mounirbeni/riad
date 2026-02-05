@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-warmwhite text-charcoal font-body antialiased;
+}
+
+.dark body {
+  @apply bg-[#0f0f0d] text-[#f5f1e9];
+}
+
+section {
+  @apply scroll-mt-24;
+}
+
+::selection {
+  background: rgba(107, 106, 85, 0.25);
+}
